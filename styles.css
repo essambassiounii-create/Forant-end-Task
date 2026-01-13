@@ -1,0 +1,141 @@
+
+/* Navbar */
+.custom-navbar {
+    background-color: #3279c0;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    font-weight: 500;
+    font-size: larger;
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+/* Hero Section*/
+.hero-section {
+    background-image: url('./1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #ffffff;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: hsla(220, 91%, 31%, 0.18);
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hero-section p {
+    font-size: 1.6rem;
+}
+
+/* Category Titles*/
+.category-title {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.vip-title {
+    color: #007bff;
+}
+
+.first-title {
+    color: #da3c07;
+}
+
+.second-title {
+    color: #28a745;
+}
+
+/* Category Cards Layout*/
+.category-row {
+    gap: 1.5rem;
+}
+
+.category-card {
+    flex: 1 1 calc(25% - 1.5rem);
+    height: 100%;
+}
+
+/*  Hotel Images*/
+.hotel-img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+/* Card Content*/
+.card-body h5 {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.card-body p {
+    font-size: 1rem;
+}
+
+/*  Booking Form*/
+.booking-form {
+    max-width: 500px;
+    background-color: #6ec3a9;
+    padding: 60px;
+    margin: 60px auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgb(5, 2, 186);
+    color: #2404f3;
+}
+
+.booking-form h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+/* Footer*/ 
+.custom-footer {
+    background-color: #3279c0;
+    color: #ffffff;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 1rem;
+    margin-top: auto;
+}
+
+.custom-footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.custom-footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
