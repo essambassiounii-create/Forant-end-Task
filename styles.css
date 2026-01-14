@@ -59,15 +59,18 @@
 }
 
 .vip-title {
-    color: #007bff;
+    color: #fff700;
+    background-color: #023158;
 }
 
 .first-title {
-    color: #da3c07;
+    color: #fff700;
+    background-color: #023158;
 }
 
 .second-title {
-    color: #28a745;
+    color: #fff700;
+    background-color: #023158;
 }
 
 /* Category Cards Layout*/
